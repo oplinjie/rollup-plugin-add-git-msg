@@ -20,6 +20,10 @@
     "plugin",
     "version"
   ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "author": "oplinjie",
   "license": "ISC",
   "devDependencies": {
