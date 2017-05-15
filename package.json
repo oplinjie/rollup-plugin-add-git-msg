@@ -6,7 +6,9 @@
   "jsnext:main": "dist/rollup-plugin-add-git-msg.es.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "mocha test/index.js"
+    "pretest": "npm run build",
+    "test": "mocha test/index.js",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
