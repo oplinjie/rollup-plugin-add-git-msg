@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-add-git-msg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple rollup plugin that insert GIT_TAG and COMMITHASH in banner.",
   "main": "dist/rollup-plugin-add-git-msg.js",
   "jsnext:main": "dist/rollup-plugin-add-git-msg.es.js",
