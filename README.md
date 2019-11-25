@@ -1,8 +1,9 @@
-# Rollup plugin add git msg
+# Rollup plugin add git msg [![NPM version](https://img.shields.io/npm/v/rollup-plugin-add-git-msg?style=flat-square)](https://www.npmjs.com/package/rollup-plugin-add-git-msg)
 
 Will add a comment to the start of the transpiled code.
 
 A standard Comment Header contains:
+
 - Current repo name from `package.json` and last git commit / git tag from git command.
 - The copyright of the repo.
 - Date of compiled time.
@@ -19,13 +20,13 @@ Example header:
 */
 ```
 
-### Installation
+## Installation
 
 ```bash
 $ npm install --save-dev rollup-plugin-add-git-msg
 ```
 
-### Uasge
+## Usage
 
 Add plugin to your rollup configuration:
 
@@ -39,11 +40,13 @@ module.exports = {
 }
 ```
 
-### Plugin Options
+## Plugin Options
+
 - `showDate`     Default value: `true`
 - `showTag`      Default value: `true`
 - `showCommitID` Default value: `true`
 - `copyright`    Default value: `null`
 
-### License
+## License
+
 MIT License (MIT)
