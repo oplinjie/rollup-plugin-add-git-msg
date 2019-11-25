@@ -32,7 +32,8 @@ export default class Banner {
     if (opt.showTag) {
       const tag = runGitCommand(TAG_COMMAND);
       if (tag) {
-        gitMsg = gitMsg.concat(`v${tag} - `)
+        const prefix = tag.startsWith('v') ? '' : 'v'
+        gitMsg = gitMsg.concat(`${prefix}${tag} - `)
       }
     }
 
